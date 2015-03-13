@@ -2,11 +2,18 @@ var _ = require('lodash');
 var fs = require('fs');
 
 module.exports = {
+    sessionsList: null,
+
     getSessionsList: function () {
-        return require('./talks.json');
+        if(!this.sessionsList) {
+            this.sessionsList = require('./talks.json');
+        }
+
+        return this.sessionsList;
     },
 
     getSessionById: function(id) {
+        id = parseInt(id);
         return _.find(this.getSessionsList(), function(s) {
             return s.id === id;
         });
@@ -23,10 +30,13 @@ module.exports = {
             if(!session["comments"]) {
                 session.comments = [];
             }
-            session.comments.push(comment);
+
+            if(comment) {
+                session.comments.push(comment);
+            }
 
             // save to 'talks.json'
-            fs.writeFileSync('./drivers/json-file/talks.json', JSON.stringify(sessions));
+            fs.writeFileSync('./drivers/json-file/talks.json', JSON.stringify(this.getSessionsList()));
             return true;
         }
 

@@ -19,21 +19,45 @@ var SessionsTable = React.createClass({displayName: "SessionsTable",
         }.bind(this));
     },
 
+    onRatingChange: function (session) {
+        var rating = $("#rating" + session.id).val();
+        $.post("/session-rating", {
+            id: session.id,
+            rating: rating
+        }).fail(function () {
+            alert("Rating failed.");
+        });
+    },
+
     render: function() {
         var rows = this.state.sessions.map(function(session) {
+            var speakerIndex = 0;
             var lis = session.speakers.map(function(speaker) {
                 return (
-                    React.createElement("li", null, 
+                    React.createElement("li", {key: session.id.toString() + '-' + (speakerIndex++)}, 
                         React.createElement("img", {src: speaker.pic}), 
                         React.createElement("p", null, speaker.name)
                     )
                 );
             });
 
+            var rating = 0;
+            if(session.ratings) {
+                rating = session.ratings.map(function(val) {
+                    return parseFloat(val);
+                }).reduce(function(prev, curr) {
+                    return prev + curr;
+                }, 0);
+                rating /= session.ratings.length;
+            }
+
             return (
-                React.createElement("tr", null, 
-                    React.createElement("td", null, session.id), 
-                    React.createElement("td", null, session.title), 
+                React.createElement("tr", {key: session.id}, 
+                    /*<td>{session.id}</td>*/
+                    React.createElement("td", null, 
+                        React.createElement("h3", null, session.title), 
+                        React.createElement("p", null, session.abstract)
+                    ), 
                     React.createElement("td", null, session.time), 
                     React.createElement("td", null, 
                         React.createElement("ul", {style: { listStyleType: 'none', paddingLeft: '0px'}}, 
@@ -41,27 +65,29 @@ var SessionsTable = React.createClass({displayName: "SessionsTable",
                         )
                     ), 
                     React.createElement("td", null, 
-                        React.createElement(Rating, {type: "number", value: session.rating || 0})
-                    ), 
-                    React.createElement("td", null, 
-                        React.createElement(Button, {bsStyle: "primary", bsSize: "small"}, 
-                            React.createElement(Glyphicon, {glyph: "option-horizontal"})
-                        )
+                        React.createElement(Rating, {id: 'rating' + session.id, session: session, type: "number", onRatingChange: this.onRatingChange, value: rating})
                     )
+                    /*<td>
+                        <Button bsStyle="primary" bsSize="small">
+                            <Glyphicon glyph="option-horizontal" />
+                        </Button>
+                    </td>*/
                 )
             );
-        });
+        }.bind(this));
 
         return (
             React.createElement(Table, {striped: true}, 
                 React.createElement("thead", null, 
                     React.createElement("tr", null, 
-                        React.createElement("th", null, React.createElement("h4", null, "ID")), 
-                        React.createElement("th", null, React.createElement("h4", null, "Title")), 
-                        React.createElement("th", null, React.createElement("h4", null, "Time")), 
-                        React.createElement("th", null, React.createElement("h4", null, "Speakers")), 
-                        React.createElement("th", null, React.createElement("h4", null, "Rating")), 
-                        React.createElement("th", null, React.createElement("h4", null, "Comments"))
+                        /*<th><h4>ID</h4></th>*/
+                        React.createElement("th", {className: "col-md-6"}, React.createElement("h3", null, "Title")), 
+                        React.createElement("th", {className: "col-md-2"}, React.createElement("h3", null, "Time")), 
+                        React.createElement("th", {className: "col-md-2"}, React.createElement("h3", null, "Speakers")), 
+                        React.createElement("th", {className: "col-md-2"}, React.createElement("h3", null, "Rating"))
+                        
+                        //<th><h4>Comments</h4></th>
+                        
                     )
                 ), 
                 React.createElement("tbody", null, 

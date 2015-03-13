@@ -10,7 +10,7 @@
     "amd",
     "node"
   ],
-  "license": "MIT",
+  "license": "Apache 2.0",
   "homepage": "http://blogorama.nerdworks.in/",
   "private": true,
   "ignore": [
