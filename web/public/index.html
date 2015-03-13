@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azure Conference Rating App</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/bower_components/bootstrap-star-rating/css/star-rating.min.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-cosmo.min.css" />
+</head>
+<body>
+
+<div id="container" class="container">
+    <!-- Page header -->
+    <div class="row page-header">
+        <div class="col-md-1">
+            <img src="images/rat.svg" alt="Rat logo" />
+        </div>
+        <div class="col-md-11">
+            <h1>Conf Rat<br/><small>Rate your Azure Conference sessions</small></h1>
+        </div>
+    </div>
+
+    <!-- Sessions table -->
+    <div class="row">
+        <div id="table-container" class="col-md-12">
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/bootstrap-star-rating/js/star-rating.min.js"></script>
+<script src="/bower_components/react/react.js"></script>
+<script src="/bower_components/react-bootstrap/react-bootstrap.min.js"></script>
+
+<script src="/javascripts/rating.js"></script>
+<script src="/javascripts/index.js"></script>
+
+</body>
+</html>
