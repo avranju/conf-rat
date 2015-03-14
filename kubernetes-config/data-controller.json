@@ -1,0 +1,37 @@
+{
+  "kind": "ReplicationController",
+  "apiVersion": "v1beta3",
+  "metadata": {
+    "name": "cr-data-controller",
+    "labels": {
+      "name": "cr-data-controller"
+    }
+  },
+  "spec": {
+    "replicas": 3,
+    "selector": {
+      "name": "cr-data"
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "name": "cr-data"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "cr-data-service",
+            "image": "avranju/cr-data-service",
+            "ports": [
+              {
+                "containerPort": 3001,
+                "protocol": "TCP"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

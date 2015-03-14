@@ -1,0 +1,18 @@
+{
+  "kind":"Service",
+  "apiVersion":"v1beta3",
+  "metadata":{
+    "name":"web-service",
+    "labels":{
+      "name":"web-service"
+    }
+  },
+  "spec":{
+    "port":3000,
+    "containerPort":3000,
+    "protocol":"TCP",
+    "selector":{
+      "name":"web"
+    }
+  }
+}

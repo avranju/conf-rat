@@ -1,0 +1,18 @@
+{
+  "kind":"Service",
+  "apiVersion":"v1beta3",
+  "metadata":{
+    "name":"cr-data-service",
+    "labels":{
+      "name":"cr-data-service"
+    }
+  },
+  "spec":{
+    "port":3001,
+    "containerPort":3001,
+    "protocol":"TCP",
+    "selector":{
+      "name":"cr-data"
+    }
+  }
+}
