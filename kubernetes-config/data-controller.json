@@ -9,23 +9,22 @@
       "desiredState": {
         "manifest": {
           "version": "v1beta1",
-          "id": "cr-data",
+          "id": "cr-data-controller",
           "containers": [{
             "name": "cr-data",
             "image": "avranju/cr-data-service",
             "cpu": 100,
-            "ports": [{"containerPort": 3001}]
+            "ports": [{"containerPort": 3001, "hostPort": 3001}]
           }]
         }
       },
       "labels": {
-        "name": "cr-data",
-        "app": "cr-data-api"
+        "name": "cr-data"
       }
     }
   },
   "labels": {
-    "name": "cr-data-controller"
+    "name": "cr-data"
   }
 }
     

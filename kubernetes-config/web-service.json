@@ -9,6 +9,5 @@
   },
   "labels": {
     "name": "web-service"
-  },
-  "createExternalLoadBalancer": true
+  }
 }
