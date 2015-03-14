@@ -14,15 +14,15 @@
             "name": "cr-web",
             "image": "avranju/cr-web",
             "cpu": 100,
-            "memory": 50000000,
-            "ports": [{"hostPort": "3000", "containerPort": 3000}]
+            "ports": [{"containerPort": 3000, "hostPort": 3000}]
           }]
         }
       },
       "labels": {
-        "name": "web",
-        "uses": "cr-data-service"
+        "name": "web"
       }
     }},
-  "labels": {"name": "web"}
+  "labels": {
+    "name": "web"
+  }
 }
