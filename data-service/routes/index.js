@@ -3,14 +3,26 @@ var router = express.Router();
 var locator = require('../locator');
 var dataService = locator.getDataService();
 
+var dataServiceInitialized = false;
+dataService.init(function(err) {
+  dataServiceInitialized = !err;
+});
+
 router.get('/', function(req, res, next) {
-  res.json(dataService.getSessionsList());
+  dataService.getSessionsList(function(err, sessions) {
+    if(err) {
+      return res.status(500);
+    }
+    res.json(sessions);
+  });
 });
 
 router.post('/', function(req, res, next) {
   var input = req.body;
-  var saved = dataService.rateSession(input.id, input.rating, input.comment);
-  res.sendStatus(saved ? 200 : 404);
+
+  dataService.rateSession(input.id, input.rating, input.comment, function(err) {
+    res.status(!err ? 200 : 500);
+  });
 });
 
 module.exports = router;

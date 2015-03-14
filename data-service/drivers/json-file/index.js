@@ -4,42 +4,57 @@ var fs = require('fs');
 module.exports = {
     sessionsList: null,
 
-    getSessionsList: function () {
+    init: function(cb) {
+        cb(null);
+    },
+
+    getSessionsList: function (cb) {
         if(!this.sessionsList) {
             this.sessionsList = require('./talks.json');
         }
 
-        return this.sessionsList;
+        cb(null, this.sessionsList);
     },
 
-    getSessionById: function(id) {
+    getSessionById: function(id, cb) {
         id = parseInt(id);
-        return _.find(this.getSessionsList(), function(s) {
-            return s.id === id;
+
+        var self = this;
+        self.getSessionsList(function(err, sessions) {
+            if(err) {
+                return cb(err);
+            }
+
+            var session = _.find(sessions, function(s) {
+                return s.id === id;
+            });
+
+            cb(session ? null : "Session not found.", session);
         });
     },
 
-    rateSession: function (id, rating, comment) {
-        var session = this.getSessionById(id);
-        if(session) {
-            if(!session["ratings"]) {
+    rateSession: function (id, rating, comment, cb) {
+        var self = this;
+        self.getSessionById(id, function(err, session) {
+            if(err) {
+                return cb(err);
+            }
+
+            if (!session["ratings"]) {
                 session.ratings = [];
             }
             session.ratings.push(rating);
 
-            if(!session["comments"]) {
+            if (!session["comments"]) {
                 session.comments = [];
             }
 
-            if(comment) {
+            if (comment) {
                 session.comments.push(comment);
             }
 
             // save to 'talks.json'
-            fs.writeFileSync('./drivers/json-file/talks.json', JSON.stringify(this.getSessionsList()));
-            return true;
-        }
-
-        return false;
+            fs.writeFile('./drivers/json-file/talks.json', JSON.stringify(this.getSessionsList()), cb);
+        });
     }
 };

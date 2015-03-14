@@ -1,6 +1,7 @@
 var Table = ReactBootstrap.Table;
 var Button = ReactBootstrap.Button;
 var Glyphicon = ReactBootstrap.Glyphicon;
+var Popover = ReactBootstrap.Popover;
 
 var SessionsTable = React.createClass({
     getInitialState: function() {
@@ -21,11 +22,16 @@ var SessionsTable = React.createClass({
 
     onRatingChange: function (session) {
         var rating = $("#rating" + session.id).val();
+        var ratingProgress = $("#rating-progress-" + session.id);
+        ratingProgress.show();
+
         $.post("/session-rating", {
             id: session.id,
             rating: rating
         }).fail(function () {
             alert("Rating failed.");
+        }).always(function() {
+            ratingProgress.hide();
         });
     },
 

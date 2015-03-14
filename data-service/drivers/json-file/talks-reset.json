@@ -1,0 +1,874 @@
+[
+  {
+    "id": "2695747994",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Building high performance solutions using Premium Storage",
+    "abstract": "Are you using Azure IaaS and are interested in the latest features that it has to offer, such as Premium Storage and G Series? Are you looking for the best practices on how to get the most of Azure IaaS? Do you want to learn how the biggest customers of Azure are using Azure IaaS? In this session we will review the leading features in Azure IaaS, common application patterns and solutions including partner offerings in Azure Marketplace.",
+    "speakers": [
+      {
+        "name": "Madhan Arumugam Ramakrishnan",
+        "pic": "http://azure-conference.cloudapp.net/images/madhan.jpg"
+      }
+    ]
+  },
+  {
+    "id": "706308054",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Migrate VMs to Azure: Best practices on Deployment & Operations",
+    "abstract": "In this session, get a detailed perspective on how to plan and migrate to on-premises VMs to Azure. Get and overview of the do's and don'ts, best practices from the field and much more. Also, get a sneak peek into a related Service called Operational Insights, which helps in providing holistic insights into your data center operations running on MS workloads.",
+    "speakers": [
+      {
+        "name": "Pracheta Budhwar",
+        "pic": "http://azure-conference.cloudapp.net/images/pracheta.jpg"
+      },
+      {
+        "name": "Rohit Gulati",
+        "pic": "http://azure-conference.cloudapp.net/images/rohit.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1237896333",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Empowering Enterprise Mobility",
+    "abstract": "Microsoft’s solution for enabling Enterprise Mobility is built on a foundation that builds on existing investments and reduces complexity for the user and IT; based on four components that provide a complete solution for managing the challenges on enterprise mobility - Hybrid Intensity, Mobile Device and Application Management, Access & Information Protection and Desktop Virtualization. Attend this session to see how these components put together can help build a compelling Enterprise Mobility Strategy for your organization.",
+    "speakers": [
+      {
+        "name": "MS Anand",
+        "pic": "http://azure-conference.cloudapp.net/images/ms.jpg"
+      },
+      {
+        "name": "Anirudh Singh Rautela",
+        "pic": "http://azure-conference.cloudapp.net/images/anirudha.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3293282969",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Automating Linux & Windows IaaS deployments & customization through Python & Powershell",
+    "abstract": "Learn about creating Linux & Windows VMs through Python scripts & customizing the VMs through VM extension. In this session, we will create three VMs (Linux) and use Linux Custom VM Extension & Windows Custom VM extensions to install MySQL Percona Cluster. We will also demo the same using powershell scripts & show it run both locally & using Azure automation.",
+    "speakers": [
+      {
+        "name": "Shweta Gupta",
+        "pic": "http://azure-conference.cloudapp.net/images/sweta.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4245861275",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Building Trust in Cloud - Azure Security, Privacy & Compliance",
+    "abstract": "Concerned about hosting your enterprise apps/services on public cloud platform? Curious what does “trust” mean in cloud? The session goes into details of Azure’s security features and operational practices with regards to how we address customer's concerns regarding security and data privacy. It will also discuss Azure’s compliance certifications. The objective of the session will be to address security concerns and reinforce why Azure is secure platform for customers to leverage for their hybrid cloud deployments. The session will also introduce Microsoft Digital Crimes Unit & Cybercrime Center, and how cloud-based intelligence  & PowerMap technologies are being used at Microsoft to disrupt malware crimes as a pro-active defense strategy. It will demonstrate how cyber threat-intelligence has been enabled in Azure through big-data analytics to empower Microsoft cloud customers to check for infected devices in their environment in real time and experience the highest standards of trusted cloud platform.",
+    "speakers": [
+      {
+        "name": "Jay Swaminathan",
+        "pic": "http://azure-conference.cloudapp.net/images/jay.jpg"
+      },
+      {
+        "name": "Keshav Dhakad",
+        "pic": "http://azure-conference.cloudapp.net/images/kesav.jpg"
+      }
+    ]
+  },
+  {
+    "id": "127782704",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Running large Linux workloads on Azure – tools, patterns and best practices",
+    "abstract": "One out of every 5 VMs in Azure run Linux applications and we are expecting a big growth in Linux workloads on Azure in the coming months too. In this session, learn about how to get started and the options available to you to develop and deploy your Linux application. Also, discuss best practices and example case studies from customers managing Linux/OSS applications in Azure and integration with partners like Docker, CoreOS, Canonical (Ubuntu), OpenLogic, SUSE, Oracle, Chef, and Puppet.",
+    "speakers": [
+      {
+        "name": "Madhan Arumugam Ramakrishnan",
+        "pic": "http://azure-conference.cloudapp.net/images/madhan.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2569694265",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Docker on Azure",
+    "abstract": "Microsoft Azure offers first class support for running Docker based workloads. In this session, we will discuss the details of how Docker works on Azure and how it can be best leveraged using Azure virtual machines. Topics covered include - setting up and running Docker containers on Linux, managing Docker deployments from Windows, container support on Windows and managing Windows containers using Docker, support for libswarm, using Kubernetes with Docker and Docker Machine support.",
+    "speakers": [
+      {
+        "name": "Rajasekharan Vengalil",
+        "pic": "http://azure-conference.cloudapp.net/images/rajashekaran.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4087239074",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Extend your network to Azure using ExpressRoute",
+    "abstract": "Learn about creating Linux & Windows VMs through Python scripts & customizing the VMs through VM extension. In this session, we will create three VMs (Linux) and use Linux Custom VM Extension & Windows Custom VM extensions to install MySQL Percona Cluster. We will also demo the same using powershell scripts & show it run both locally & using Azure automation.",
+    "speakers": [
+      {
+        "name": "Lakshmi Krishnamurthy",
+        "pic": "http://azure-conference.cloudapp.net/images/lakshmi.jpg"
+      },
+      {
+        "name": "Paul Laverty",
+        "pic": "http://azure-conference.cloudapp.net/images/paul.jpg"
+      }
+    ]
+  },
+  {
+    "id": "979964534",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Azure vs. AWS - The two heavy weights",
+    "abstract": "This is not just theory, but pure pay workloads deployed and tested on a level playing field. Be it computing, data or app services, we will always look at the power of hosting and building solutions on Azure in comparison to AWS.",
+    "speakers": [
+      {
+        "name": "Sandeep Alur",
+        "pic": "http://azure-conference.cloudapp.net/images/sandeep.jpg"
+      },
+      {
+        "name": "Sarvashrestha Paliwal",
+        "pic": "http://azure-conference.cloudapp.net/images/sarvashrestha.jpg"
+      }
+    ]
+  },
+  {
+    "id": "198389434",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Cloud Identity and Access Management: Microsoft Azure Active Directory Premium",
+    "abstract": "Azure Active Directory is an enterprise-level identity and access management cloud solution. Azure Active Directory Premium, built on top of the core offering of Azure AD, provides a robust set of capabilities to empower enterprises with more demanding needs on identity and access management. In this session we present all of the new features of this premium offering: single sign-on to hundreds of popular SaaS application, group-based access management, self-service password reset, security reporting, multi-factor authentication, and more.",
+    "speakers": [
+      {
+        "name": "Vishal Shirodkar",
+        "pic": "http://azure-conference.cloudapp.net/images/vishal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2329984711",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Azure SQL Database : Performance and Disaster Recovery",
+    "abstract": "Are you ready to use Azure SQL database but have questions about Performance and Disaster Recovery? In this session, we will discuss database performance, considering the new performance enhancement features which can significantly improve the performance of workloads and capabilities available to help in monitoring and troubleshooting. We will walk through disaster recovery options including automatic backup, geo-replication, and point in time restoration features and explain how they can be used to achieve a comprehensive disaster recovery strategy.",
+    "speakers": [
+      {
+        "name": "Rangarajan Srirangam",
+        "pic": "http://azure-conference.cloudapp.net/images/rangarajan.jpg"
+      },
+      {
+        "name": "Mandar Inamdar",
+        "pic": "http://azure-conference.cloudapp.net/images/mandar.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2878760058",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Stream Analytics  - Analyze your data in motion",
+    "abstract": "In this session, learn about high scale streaming capacity of Eventhub and Stream Analytics. Also, learn how to use Azure data factory to combine streaming data with static/relative data (both on-premises and on cloud) to setup a workflow.",
+    "speakers": [
+      {
+        "name": "Deepthi Anantharam",
+        "pic": "http://azure-conference.cloudapp.net/images/deepthi.jpg"
+      },
+      {
+        "name": "Ruhani Arora",
+        "pic": "http://azure-conference.cloudapp.net/images/ruhani.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2219992251",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Understanding when to use Management API, Resource Management and PowerShell",
+    "abstract": "Many organizations don't want to manage AZURE IAAS from the Azure portal. This is because of many reasons, such as:\n\n                                    \n                                        Many internal teams want to provision VM’s at Azure but the company does not want to share the subscription details.\n                                        There are some internal approvals to be taken before provisioning the VM.\n                                        They already have an internal portal to manage a private cloud and want to use the same for provisioning at Azure cloud.\n                                    \n\n                                    In order to achieve the above, the same experience as Azure portal can be achieved with the help of MAML API’s or PowerShell. The objective is to show that it’s straightforward and to be used as any other SDK. This allows customization of the Portal experience and enforcement of governance. As RBAC and RM mature, this is the path every customer needs to move towards and adopt.\n                                    \n\n                                    This will also help explain the most confusing issues of Azure management. We have two front ends RDFE and RM with the latter maturing at faster rate.",
+    "speakers": [
+      {
+        "name": "Govind Kanshi",
+        "pic": "http://azure-conference.cloudapp.net/images/govind.jpg"
+      },
+      {
+        "name": "Hemant Kathuria",
+        "pic": "http://azure-conference.cloudapp.net/images/hemant.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2810737050",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Running SAP applications on Azure Public Cloud",
+    "abstract": "Reduce costs, increase DR capabilities, and improve deployment time by running SAP applications on Azure. Join this session to discuss the technical requirements and certification roadmap of SAP, Oracle, Sybase, Linux and HANA on Microsoft Azure platform.  Also, hear about real customer success stories showing multi-billion dollar businesses running SAP live in production on Azure.",
+    "speakers": [
+      {
+        "name": "Cameron Gardiner",
+        "pic": "http://azure-conference.cloudapp.net/images/cameron.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3794435216",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Practical Machine Learning",
+    "abstract": "In this session, we will see how to take the existing data, shape it, and create models that automatically can make principled business decisions directly in the applications. The discussion will include explanations of the data acquisition and shaping process. Additionally, we will learn about a few practical machine learning problems.",
+    "speakers": [
+      {
+        "name": "Nandan Umarji",
+        "pic": "http://azure-conference.cloudapp.net/images/nandan.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2142650185",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Inside Azure Storage – Options, abstractions and best practices",
+    "abstract": "Azure Storage is a highly scalable, available, and durable cloud storage system that stores trillions of objects and serves in over 1 million requests per second. It provides abstractions like NoSQL Tables, Blobs, Files and Queues etc. all built on top of the same framework. Azure Storage powers cloud service performance: Infrastructure as a Service (IaaS), StorSimple, Media Services and many other cloud services are directly dependent on the IO horsepower delivered by Storage. In this session, we will examine what can be done to increase performance. We will examine common problems and how to avoid them.",
+    "speakers": [
+      {
+        "name": "Vinod Kumar M",
+        "pic": "http://azure-conference.cloudapp.net/images/vinod.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1937915313",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Azure Service Bus Deep Dive  by Norman",
+    "abstract": "Azure Search enables developers to incorporate great search experiences into their applications without having to become experts on search. In this session, explore the features of Azure Search and what capability it offers.",
+    "speakers": [
+      {
+        "name": "Poonam Sampat",
+        "pic": "http://azure-conference.cloudapp.net/images/poonam.jpg"
+      },
+      {
+        "name": "Manish Sharma",
+        "pic": "http://azure-conference.cloudapp.net/images/manish.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2577688933",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Migrate databases to the cloud – Why, How and Best Practices.",
+    "abstract": "This session will focus on addressing the challenges you might face when migrating an on-premise OLTP to Microsoft Azure SQL Database that handles thousands of TPS -  including system & storage design considerations, scalability & data sharing and performance monitoring & data caching. Explore solutions and real-life experiences that you can be applied to your migration project.",
+    "speakers": [
+      {
+        "name": "Amit Bansal",
+        "pic": "http://azure-conference.cloudapp.net/images/amit.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1234024378",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Choosing Right Platform for Big Data",
+    "abstract": "In this session, we'll discuss about the use cases of different types of cluster which help IT administrator to decide what type of cluster you need to choose for your business load. Also, explore how the necessary performance can be achieved on different data load and what are the tools available to setup clusters to make managing and deployment easier. Additionally, understand how clusters creation can be extended using script action.",
+    "speakers": [
+      {
+        "name": "Sudhir Rawat",
+        "pic": "http://azure-conference.cloudapp.net/images/sudhir.jpg"
+      }
+    ]
+  },
+  {
+    "id": "645913501",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Exploring the power of Azure search",
+    "abstract": "Azure Service Bus is a key component to almost every cloud-scale application and it provides a hosted, secure, and widely available infrastructure for widespread communication, large-scale event distribution, naming, and service publishing. In this session, we will cover the key features like Queues, Topics, Relays, Event Hubs and messaging/eventing capabilities supported by Service Bus.\n                                    Also, explore the common messaging patterns applicable for the Azure Service Bus Services.",
+    "speakers": [
+      {
+        "name": "Norman Sequeira",
+        "pic": "http://azure-conference.cloudapp.net/images/norman.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2310363291",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Build multi-tier solutions using Cloud Services",
+    "abstract": "Are you confused between Virtual Machines, Azure Websites and Cloud Services? If you’re not sure about how cloud services differ from other platforms and how to build your cloud services solutions, then this is the session for you. In this session, you can learn about a highly available and infinitely scalable platform to host your next web application. Also, learn how to build multi-tier applications using Azure Cloud Services and how it lets you focus on your application logic, while allowing the scaling infrastructure to be fully managed by the Azure platform.",
+    "speakers": [
+      {
+        "name": "Punit Shah",
+        "pic": "http://azure-conference.cloudapp.net/images/punit.jpg"
+      },
+      {
+        "name": "Sameeksha Khare",
+        "pic": "http://azure-conference.cloudapp.net/images/sameeksha.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1529854220",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Architecting Azure based solutions for IoT",
+    "abstract": "In this session we will start with building an IoT device with Intel Galileo, which will interact with the various sensors. Then, we will use EventsHub for sending out events without needing the Service Bus SDK or even .NET. We will cover end to end architecture with scenarios considering Home automation and healthcare.",
+    "speakers": [
+      {
+        "name": "Saurabh Kirtani",
+        "pic": "http://azure-conference.cloudapp.net/images/saurabhK.jpg"
+      },
+      {
+        "name": "Ujjwal Kumar",
+        "pic": "http://azure-conference.cloudapp.net/images/ujjwal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "719755583",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Introducing Azure Mobile Engagement",
+    "abstract": "We believe you certainly put a great deal of effort in trying to make it a great app that users will love. But after the initial exhilarating peak of users, you might see them slowly stop using your app. This is what Azure Mobile Engagement is all about: getting them to stick around and allow you to incrementally improve your app through test and learn. Our approach to improving retention and usage is based on engaging app users through Push Notifications and In-app messages, but in a very special way, with messages and communication tailored to them, each according to their behavior within the app. Our goal is to let you communicate with the right audience at the right time and the right location.",
+    "speakers": [
+      {
+        "name": "Abhishek Narain",
+        "pic": "http://azure-conference.cloudapp.net/images/abhishek.jpg"
+      },
+      {
+        "name": "Sukriti Sharma",
+        "pic": "http://azure-conference.cloudapp.net/images/sukriti.jpg"
+      }
+    ]
+  },
+  {
+    "id": "99822744",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Sharepoint on Azure",
+    "abstract": "In this session, we’ll discuss the considerations and requirements for deploying a highly available and scalable Sharepoint Farm with all its moving components and dependent technologies to Azure. Some of the questions that will be addressed in this session include:\n                                    \n                                    Why should you chose Azure for hosting SharePoint? Can you host any workload? How should you design cloud services and availability sets for servers? What disaster recovery options you have?\n                                    \n                                    And much more.",
+    "speakers": [
+      {
+        "name": "Sanjay Narang",
+        "pic": "http://azure-conference.cloudapp.net/images/sanjay.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4177465343",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Azure Batch & Jobs : Enterprise Scale Workloads in Azure",
+    "abstract": "Join us to build enterprise solutions running large scale workloads on Azure using the multivalent services offered in Azure.Come and deploy large backgrounds tasks with Azure Batch or run Webjobs without spinning off instances or schedule any workflow without hundreds of lines of code. Experience the swiss knives at your disposal with azure new services streamlining your production rollouts for complex deployments seamlessly. Azure:Solving Enterprise Problems, today!",
+    "speakers": [
+      {
+        "name": "Capt. Saurabh Ranjan",
+        "pic": "http://azure-conference.cloudapp.net/images/saurabh.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3277501380",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Stream video using the cloud scale of Azure Media Services",
+    "abstract": "In this session we will discuss what it takes to deliver video at scale and how you don’t have to worry about it. Learn about the capabilities of Azure Media Services from content ingestion, hosting, streaming to value added capabilities like cross browser playback, sub-clipping, automatic archiving of live content, etc.",
+    "speakers": [
+      {
+        "name": "Vishal Sood",
+        "pic": "http://azure-conference.cloudapp.net/images/vishals.jpg"
+      },
+      {
+        "name": "Gurusubramanian Balasubramanian",
+        "pic": "http://azure-conference.cloudapp.net/images/gurusubramanian.jpg"
+      }
+    ]
+  },
+  {
+    "id": "760705694",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Azure Websites – Be the Debug Ninja + Application Insights",
+    "abstract": "Ever hosted a site on the Azure websites platform? If yes, then this session is for you. In this session, we will discuss troubleshooting Azure websites namely the KUDU Console, the Support Portal and the powerful DAAS (Diagnostic As a Service), Azure site Extensions. Hear from Azure Websites support team that helps customers on a daily basis on troubleshooting errors and performance issues. Also, understand the diagnostics capabilities that the platforms offer.",
+    "speakers": [
+      {
+        "name": "Puneet Gupta",
+        "pic": "http://azure-conference.cloudapp.net/images/puneet.jpg"
+      },
+      {
+        "name": "Kaushal Kumar Panday",
+        "pic": "http://azure-conference.cloudapp.net/images/kaushal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1536495964",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Modernize, Monetize and Manage access to your Line of Business Services using Azure API Management",
+    "abstract": "Increase the reach, utility and potential of your Native Line of Business Applications, by quickly modernizing them through protocol support like REST, Json using the Azure API Management capabilities. Manage the traffic, access to and performance of these APIs to suit your organizational needs. Improve the discoverability and adoption of these APIs through a developer friendly API catalog.",
+    "speakers": [
+      {
+        "name": "Srikantan Sankaran",
+        "pic": "http://azure-conference.cloudapp.net/images/srikantan.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3422356522",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Leveraging Azure to Build IoT Solutions",
+    "abstract": "This session will demonstrate a real world scenario that harnesses the collective power of IoT and Cloud. Learn how Azure platform can be used to control actuators and switches. We will walk you through the steps of wiring up sensors with Arduino and Raspberry Pi that call REST API to stream data to cloud databases.",
+    "speakers": [
+      {
+        "name": "Janakiram",
+        "pic": "http://azure-conference.cloudapp.net/images/janakiram.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1490899829",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Dev & Test on Azure",
+    "abstract": "How teams can leverage cloud for their Dev & Test. Visual Studio Online and its capabilities of Team Foundation Server with additional cloud services. Get up and running in minutes on our cloud infrastructure without having to install or configure a single server. Experience Project Management, development, version control, build, test and Release from the cloud service - Visual Studio Onlin",
+    "speakers": [
+      {
+        "name": "Himanshu Bharadwaj",
+        "pic": "http://azure-conference.cloudapp.net/images/himanshu.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3153011355",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Migrating from Amazon to Microsoft Azure",
+    "abstract": "Dealing with migration woes from AWS? Stuck while deciphering analogy between AMI and VHDs, S3 and Blobs, RDS and Sql Azure? In this session, you can learn to solve real life scenarios from anywhere to Azure with an open ended interactive discussion. This session is suitable for architects, solutions specialists, and developers.",
+    "speakers": [
+      {
+        "name": "Capt. Saurabh Ranjan",
+        "pic": "http://azure-conference.cloudapp.net/images/saurabh.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2927028650",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Millions of messages from multiple Devices",
+    "abstract": "The hasty explosion of connected devices increases challenges due to the diversity of platforms, protocols involved and the scale. In this discussion, we will highlight the Azure services that can be used to handle these challenges and walk through a sample that aggregates data from devices and enables simple event processing.",
+    "speakers": [
+      {
+        "name": "Mohammed Nasiruddin",
+        "pic": "http://azure-conference.cloudapp.net/images/mohammed.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1110308212",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Open Source Dev Ops on Azure",
+    "abstract": "Automating and managing your cloud infrastructure can turn out to be a chore. This chalk talk reviews some of the popular open source tools that help automate administration of your cloud deployments. Join this talk to learn about running Chef and Puppet, and other tools to manage your Azure resources.",
+    "speakers": [
+      {
+        "name": "Rajasekharan Vengalil",
+        "pic": "http://azure-conference.cloudapp.net/images/rajashekaran.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1168866722",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Planning Disaster Recovery for Enterprise Applications on Azure",
+    "abstract": "This chalk talk will focus on disaster recovery options for applications. We will cover multiple local and geo disaster recovery options for applications using Azure Storage, Azure SQL Database, SQL Server on VMs, Azure Traffic Manager etc. Also, the session will include a discussion on primary and secondary techniques for establishing sound DR techniques and practices for cloud-only or hybrid applications. The consequences of choosing specific options will be also be discussed.",
+    "speakers": [
+      {
+        "name": "Rangarajan Srirangam",
+        "pic": "http://azure-conference.cloudapp.net/images/rangarajan.jpg"
+      },
+      {
+        "name": "Mandar Inamdar",
+        "pic": "http://azure-conference.cloudapp.net/images/mandar.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2601809968",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Azure Data Centers in India",
+    "abstract": "Microsoft will add Azure regions in India this year. In this session, Suresh Venkateswaran provides an overview of the India regions and describes how these make life better for you. Expect to leave this session with insight on how you can make best use of these regions as a customer or partner of Microsoft.",
+    "speakers": [
+      {
+        "name": "Suresh Venkateshwaran",
+        "pic": "http://azure-conference.cloudapp.net/images/suresh.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4013673723",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Operational Guidance for Cloud IaaS",
+    "abstract": "This chalk talk will help you understand why and how cloud (Azure) is different from traditional IT. The session will help highlight the Cloud principles and concepts that have an impact on IT processes, roles, tasks & people skills. Learn from best practices on how to embed the required processes and roles within the IT organization and system management tooling.",
+    "speakers": [
+      {
+        "name": "MS Anand",
+        "pic": "http://azure-conference.cloudapp.net/images/ms.jpg"
+      }
+    ]
+  },
+  {
+    "id": "286448779",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Building an effective DR strategy with Azure Site Recovery",
+    "abstract": "Organizations of all sizes are now able to afford Disaster Recovery as a Service (DRaaS) powered by Azure Site Recovery (ASR) with InMage Scout. Azure Site Recovery contributes to the business and workload continuity strategy by orchestrating replication, failover and recovery of virtual machines in a number of deployment scenarios.  InMage scout extends ASR’s capabilities for working with environment running on VMWare and will also support recovery to Azure.\n                                    In this session, learn about the business and technical details of DRaaS to expand your understanding of ASR with InMage Scout. Also, we will explore best practices and guidelines for DR planning, deployment and DR drills with ASR.",
+    "speakers": [
+      {
+        "name": "Rohit Gulati",
+        "pic": "http://azure-conference.cloudapp.net/images/rohit.jpg"
+      },
+      {
+        "name": "Abhishek Hemrajani",
+        "pic": "http://azure-conference.cloudapp.net/images/abhi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3210528664",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Designing & Implementing Hybrid Cloud Solutions",
+    "abstract": "Azure is an enterprise-proven hybrid cloud solution platform, and with Azure it is easier to build applications that span both on-premises and the cloud. In this session, we will focus on the different Hybrid options available, advantages & disadvantages and some practical, real-world solutions and services.",
+    "speakers": [
+      {
+        "name": "Aditee Rele",
+        "pic": "http://azure-conference.cloudapp.net/images/aditee.jpg"
+      }
+    ]
+  },
+  {
+    "id": "650207924",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Building High scale web applications on Azure",
+    "abstract": "This chalk talk covers various architectural patterns and proven practices that can be leveraged to build high scale applications such as web applications, cloud services and mobile applications. In this session, we will walk through reference architectures that will enable building high scale applications on Azure.",
+    "speakers": [
+      {
+        "name": "Anil Dwarakanath",
+        "pic": "http://azure-conference.cloudapp.net/images/anil.jpg"
+      }
+    ]
+  },
+  {
+    "id": "533839602",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Hardcore Inside: Building highly performant and scalable data architectures",
+    "abstract": "Data is everywhere and it is taken for granted. Azure presents a great platform to use this platform to Ingress, retain, backup, massage and analyze the data that we have. There are a number of options one can use inside the Azure platform to perform each of these techniques. From standard storage optimizations, messaging options, Ingress using NRT, consuming IoT data, using HDInsight for their big data problems etc. In this interactive chalk talk, we will demystify what are the choices we have when dealing with data inside Azure, when to use what technologies, how to I bring some of your open source investments into Azure for data architectures, why one would choose one over the other and beyond",
+    "speakers": [
+      {
+        "name": "Govind Kanshi",
+        "pic": "http://azure-conference.cloudapp.net/images/govind.jpg"
+      },
+      {
+        "name": "Vinod Kumar M",
+        "pic": "http://azure-conference.cloudapp.net/images/vinod.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3075438771",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Deploying Cloud Service in Microsoft Azure with SQL Azure",
+    "abstract": "The HOL will cover creation of front end using Azure Cloud Service and backend using Azure SQL database. The tasks cover creation of database and tables in Microsoft Azure SQL Database and how to perform CRUD operations. The tasks related to Azure Cloud Service involve creation of Cloud service and connecting it to Azure SQL database and at the end test the Cloud Service locally, and then publishing the Cloud Service in Windows Azure.",
+    "speakers": [
+      {
+        "name": "Deepak Maheshwari",
+        "pic": "http://azure-conference.cloudapp.net/images/deepak.jpg"
+      },
+      {
+        "name": "Saba Haleem",
+        "pic": "http://azure-conference.cloudapp.net/images/saba.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3462174945",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Introducing Application Insights: Detect issues, solve problems and continuously improve your web applications",
+    "abstract": "Application Insights is a new Azure service for monitoring your applications’ availability, performance, and usage. This session gives an introduction and explains how and why you should use Application Insights.",
+    "speakers": [
+      {
+        "name": "Shashank Shrivastava",
+        "pic": "http://azure-conference.cloudapp.net/images/shashank.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2485414648",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Setup your own Azure IaaS Networks in a lab",
+    "abstract": "You understand the Microsoft Azure IaaS Networking concept and would like to experience it by setting up your own lab? This is the right place to understand how you can do this. Follow the step by Step guide and experience the new world of Hybrid Networking.\n                                    This HOL will help you experience:\n                                    \n                                        Set up your first Virtual Network on Azure\n                                        Configure a Point-to-Site Connectivity\n                                        Configure your second Virtual network\n                                        Configure a vNet-to-vNet connectivity",
+    "speakers": [
+      {
+        "name": "Amitabha Roy Chowdhury",
+        "pic": "http://azure-conference.cloudapp.net/images/amitabha.jpg"
+      },
+      {
+        "name": "Bapi Chakraborty",
+        "pic": "http://azure-conference.cloudapp.net/images/bapi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4260690531",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Azure Websites",
+    "abstract": "During this session we will show you how to create an Azure website and perform basic management and configuration tasks on your site.\n                                    \n                                    Create, deploy and manage your Azure website right from Visual Studio.",
+    "speakers": [
+      {
+        "name": "Puneet Gupta",
+        "pic": "http://azure-conference.cloudapp.net/images/puneet.jpg"
+      },
+      {
+        "name": "Kaushal Kumar Panday",
+        "pic": "http://azure-conference.cloudapp.net/images/kaushal.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3765319622",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Notification Hub",
+    "abstract": "In this HOL we will show you how to use Azure Notification Hubs to broadcast notifications to a mobile app. We will also show how you can send targeted push notifications across various platforms. When complete, you will be able to register for breaking news categories you are interested in, and receive only push notifications for those categories. This scenario is a common pattern for many apps where notifications have to be sent to groups of users that have previously declared interest in them, e.g. RSS reader, apps for music fans, etc.",
+    "speakers": [
+      {
+        "name": "Sukriti Sharma",
+        "pic": "http://azure-conference.cloudapp.net/images/sukriti.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3132696017",
+    "time": "11:00 AM to 11:55 AM",
+    "title": "Migrating from On-premise to Azure SQL Database",
+    "abstract": "Migrating a database requires careful planning in order to ensure the application continues to run well. Microsoft Azure SQL Databases  are not exactly the same as the SQL Server on-premise and thus one has to understand many differences between them. We have to consider the difference in features, difference in TSQL support, workload to move, changes in the application that will be needed, etc.\n                                    In this session we have a lab setup for you to try your hands at migrating differnt databases, varying in size and complexity. While the servers are busy migrating the data, we will discuss on determining the right Azure database edition for your workload, feature differences, various approaches to migrate, tools and best practices for migration.\n                                    Database Migration, Database migration to Azure, Azure SQL database migration, Azure SQL Database Editions, Azure SQL Database migration tools, Migration hands-on",
+    "speakers": [
+      {
+        "name": "Kumar Bijayanta",
+        "pic": "http://azure-conference.cloudapp.net/images/kumar.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1940540711",
+    "time": "12:00 PM to 12:55 PM",
+    "title": "Dev & Test on Azure",
+    "abstract": "How teams can leverage cloud for their Dev & Test. Visual Studio Online and its capabilities of Team Foundation Server with additional cloud services. Get up and running in minutes on our cloud infrastructure without having to install or configure a single server. Experience Project Management, development, version control, build, test and Release from the cloud service - Visual Studio Online.",
+    "speakers": [
+      {
+        "name": "Himanshu Bharadwaj",
+        "pic": "http://azure-conference.cloudapp.net/images/himanshu.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3840632120",
+    "time": "2:00 PM to 2:55 PM",
+    "title": "Linux Workloads, deploying lamp stack on azure",
+    "abstract": "Let us understand how to create a LAMP stack on Azure VM, logging, reviewing and executing the control script. Accessing and viewing webpage after ensuring Apache, PHP and MySQL are in running state. We will also see how LAMP stack can be installed manually.",
+    "speakers": [
+      {
+        "name": "Aditya Sawant",
+        "pic": "http://azure-conference.cloudapp.net/images/aditya.jpg"
+      },
+      {
+        "name": "Sekhar Reddy",
+        "pic": "http://azure-conference.cloudapp.net/images/shekhar.jpg"
+      }
+    ]
+  },
+  {
+    "id": "838460800",
+    "time": "3:00 PM to 3:55 PM",
+    "title": "Put some Office 365 in your mobile apps",
+    "abstract": "Office 365 is a service offering from Microsoft which includes: Exchange Online, SharePoint Online, Lync, and OneDrive for Business. These services are backed by powerful, scalable Microsoft Azure Infrastructure. It would be great if these services are extended to mobile devices and made available to all the platforms, making true ‘cloud first, mobile first’ solutions. This talk is about building mobile applications which can utilize Office 365 services to communicate and collaborate with others.",
+    "speakers": [
+      {
+        "name": "Mayur Tendulkar",
+        "pic": "http://azure-conference.cloudapp.net/images/mayur.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3956450069",
+    "time": "4:15 PM  to 5:10 PM",
+    "title": "Azure Active Directory",
+    "abstract": "In this Hands-on Lab, participants will get a better understanding of the new Azure Active Directory. Participants will perform key activities like -\n                                    \n                                    \n                                        User Creation in Azure Portal.\n                                        Group Management activities like creation & delegation.\n                                        Application Integration. This includes Online CRM, Google News and Microsoft OneDrive.\n                                        Configuring and enabling Multi-Factor Authentication integrated with Microsoft Azure Active Directory.\n                                        Self-service password reset for users.\n                                        Branding Sign-In and Access Panel pages.",
+    "speakers": [
+      {
+        "name": "Ninad Doshi",
+        "pic": "http://azure-conference.cloudapp.net/images/ninand.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3346973399",
+    "time": "10:30 AM to 11:15 AM",
+    "title": "Financial models for new age technologies",
+    "abstract": "Devices and services are exploding and companies tend to have a tough time planning and budgeting for these new technologies. In this session, we will explore financial models that you can use to optimize your costs while providing more resources to your teams with the new age services. The financial models explore both internal cost models and customer pricing models and talk about various options to improve your cash flow.",
+    "speakers": [
+      {
+        "name": "Praveen Srivatsa",
+        "pic": "http://azure-conference.cloudapp.net/images/praveen.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2400332425",
+    "time": "11:15 AM to 12:00 PM",
+    "title": "How Microsoft Does Finance",
+    "abstract": "Do you get into a business review and suddenly notice that different finance team members are presenting different numbers? Do you get hassled by a last minute change in the dashboard/report asked by the leaders during a business review?\n                                    Do you have a single source of truth for all Financial reporting?\n                                    Are you still doing a large chunk of your finance work manually?\n                                This session is an attempt to find solutions to these and similar day to day problems.",
+    "speakers": [
+      {
+        "name": "Mandira Varma",
+        "pic": "http://azure-conference.cloudapp.net/images/mandira.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2349850674",
+    "time": "12:00 PM to 12:45 PM",
+    "title": "Getting Ready with your Analytics driven Enterprise",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Mahesh Ramakrishnan",
+        "pic": "http://azure-conference.cloudapp.net/images/mahesh.jpg"
+      },
+      {
+        "name": "Saket Mehra",
+        "pic": "http://azure-conference.cloudapp.net/images/saket.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1841839868",
+    "time": "12:45 PM to 1:15 PM",
+    "title": "Next Steps - Aligning Finance and Technology",
+    "abstract": "During this session we will show you how to create an Azure website and perform basic management and configuration tasks on your site.\n                                \n                                Create, deploy and manage your Azure website right from Visual Studio.",
+    "speakers": [
+      {
+        "name": "Kiran DB",
+        "pic": "http://azure-conference.cloudapp.net/images/kiran.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4127025844",
+    "time": "2:00 PM to 2:30 PM",
+    "title": "From Backroom to Boardroom - Evolution of CPO as a value creator",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Name Of Speaker",
+        "pic": "http://azure-conference.cloudapp.net/images/spNone.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3839505208",
+    "time": "2:30 PM to 3:15 PM",
+    "title": "Transform your Procurement organization with proactive Contract Management in the cloud",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Monish Darda",
+        "pic": "http://azure-conference.cloudapp.net/images/monish.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3121902688",
+    "time": "3:15 PM to 4:00 PM",
+    "title": "Partnership between CPO and CIO",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Mandar Marulkar",
+        "pic": "http://azure-conference.cloudapp.net/images/mahesh.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1608057330",
+    "time": "4:00 PM to 4:30 PM",
+    "title": "Why Procurement should care about Enterprise Mobility in Modern Organizations?",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Dalvir Singh Sira,",
+        "pic": "http://azure-conference.cloudapp.net/images/dalvir.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2246036157",
+    "time": "2:00 PM to 2:45 PM",
+    "title": "How Microsoft is transforming the HR and Talent Paradigm",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Ira Gupta",
+        "pic": "http://azure-conference.cloudapp.net/images/ira.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2599116248",
+    "time": "2:45 PM to 3:30 PM",
+    "title": "Drive Sustainable Business Results through Enhanced Employee Productivity",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Abhrajit Ray",
+        "pic": "http://azure-conference.cloudapp.net/images/abhrajit.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4239570768",
+    "time": "3:30 PM to 4:00 PM",
+    "title": "A Lean Approach to a full HR Transformation",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Venki Muthanna",
+        "pic": "http://azure-conference.cloudapp.net/images/venki.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2172784650",
+    "time": "4:00 PM to 4:30 PM",
+    "title": "Make your HR Data speak visually",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Galahad Franklin",
+        "pic": "http://azure-conference.cloudapp.net/images/galahad.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2272628076",
+    "time": "11:00 AM - 11:45 AM",
+    "title": "Goodbye Marketers. Hello Marketologist",
+    "abstract": "Modern marketing relies heavily on technology to ensure quality, brand standardization and customer understanding in a world that shifts every second. The ability to develop a customer experience roadmap and technology architecture is every bit as valuable as being able to distil customer insights into a product roadmap. Successful marketers will be able to seamlessly marry fields such as technology, behavioral economics, process optimization and marketing to create an optimal and dynamic customer experience.",
+    "speakers": [
+      {
+        "name": "Hitu Chawla",
+        "pic": "http://azure-conference.cloudapp.net/images/hitu.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1921927181",
+    "time": "11:45 PM - 12:15 PM",
+    "title": "Drive result oriented Marketing with MDM",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Ruchi Tushir",
+        "pic": "http://azure-conference.cloudapp.net/images/ruchi.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2175183956",
+    "time": "12:15 PM - 1:00 PM",
+    "title": "Building wholesome collaborative intelligence, only for your enterprise",
+    "abstract": "Coming soon",
+    "speakers": [
+      {
+        "name": "Anand Natraj",
+        "pic": "http://azure-conference.cloudapp.net/images/anand.jpg"
+      },
+      {
+        "name": "S. Niranjan",
+        "pic": "http://azure-conference.cloudapp.net/images/s.jpg"
+      }
+    ]
+  }
+]
