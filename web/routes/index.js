@@ -3,9 +3,29 @@ var router = express.Router();
 var request = require('request');
 var config = require('../config.json');
 
-// pick the data service URL from the environment
-// or fallback to the value in config.json
-var dataServiceURL = process.env.CONF_RAT_DATA_SERVICE_URL || config.dataServiceURL;
+var dataServiceURL = findDataServiceURL();
+console.log('Using data service URL: ', dataServiceURL);
+
+function findDataServiceURL() {
+  // pick the data service URL from the environment
+  // or fallback to the value in config.json;
+
+  // if CONF_RAT_DATA_SERVICE_URL exists then we use that
+  if(process.env.CONF_RAT_DATA_SERVICE_URL) {
+    return process.env.CONF_RAT_DATA_SERVICE_URL;
+  }
+
+  // if environment variable called CR_DATA_SERVICE_HOST and
+  // CR_DATA_SERVICE_PORT exist then we use that to build the
+  // url
+  if(process.env.CR_DATA_SERVICE_HOST && process.env.CR_DATA_SERVICE_PORT) {
+    return "http://" + process.env.CR_DATA_SERVICE_HOST + ":" + process.env.CR_DATA_SERVICE_PORT;
+  }
+
+  // if nothing else is available fallback on the config file value;
+  // this will only work during local dev
+  return config.dataServiceURL;
+}
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

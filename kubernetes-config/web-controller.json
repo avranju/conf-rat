@@ -9,20 +9,19 @@
       "desiredState": {
         "manifest": {
           "version": "v1beta1",
-          "id": "web",
+          "id": "web-controller",
           "containers": [{
             "name": "cr-web",
             "image": "avranju/cr-web",
             "cpu": 100,
             "memory": 50000000,
-            "ports": [{"name": "http-server", "containerPort": 3000}]
+            "ports": [{"hostPort": "3000", "containerPort": 3000}]
           }]
         }
       },
       "labels": {
         "name": "web",
-        "uses": "data-service",
-        "app": "web"
+        "uses": "cr-data-service"
       }
     }},
   "labels": {"name": "web"}
