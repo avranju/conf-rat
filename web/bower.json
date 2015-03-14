@@ -23,9 +23,8 @@
   "dependencies": {
     "react": "~0.13.0",
     "react-bootstrap": "~0.16.1",
-    "bootstrap": "~3.3.2"
-  },
-  "devDependencies": {
+    "bootstrap": "~3.3.2",
     "bootstrap-star-rating": "~3.5.1"
-  }
+  },
+  "devDependencies": {}
 }
