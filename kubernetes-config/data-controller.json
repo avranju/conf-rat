@@ -1,37 +1,31 @@
 {
+  "id": "cr-data-controller",
   "kind": "ReplicationController",
-  "apiVersion": "v1beta3",
-  "metadata": {
-    "name": "cr-data-controller",
-    "labels": {
-      "name": "cr-data-controller"
-    }
-  },
-  "spec": {
+  "apiVersion": "v1beta1",
+  "desiredState": {
     "replicas": 3,
-    "selector": {
-      "name": "cr-data"
-    },
-    "template": {
-      "metadata": {
-        "labels": {
-          "name": "cr-data"
+    "replicaSelector": {"name": "cr-data"},
+    "podTemplate": {
+      "desiredState": {
+        "manifest": {
+          "version": "v1beta1",
+          "id": "cr-data",
+          "containers": [{
+            "name": "cr-data",
+            "image": "avranju/cr-data-service",
+            "cpu": 100,
+            "ports": [{"containerPort": 3001}]
+          }]
         }
       },
-      "spec": {
-        "containers": [
-          {
-            "name": "cr-data-service",
-            "image": "avranju/cr-data-service",
-            "ports": [
-              {
-                "containerPort": 3001,
-                "protocol": "TCP"
-              }
-            ]
-          }
-        ]
+      "labels": {
+        "name": "cr-data",
+        "app": "cr-data-api"
       }
     }
+  },
+  "labels": {
+    "name": "cr-data-controller"
   }
 }
+    

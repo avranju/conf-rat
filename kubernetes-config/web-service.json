@@ -1,18 +1,14 @@
 {
-  "kind":"Service",
-  "apiVersion":"v1beta3",
-  "metadata":{
-    "name":"web-service",
-    "labels":{
-      "name":"web-service"
-    }
+  "id": "web-service",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 80,
+  "containerPort": "http-server",
+  "selector": {
+    "name": "web"
   },
-  "spec":{
-    "port":3000,
-    "containerPort":3000,
-    "protocol":"TCP",
-    "selector":{
-      "name":"web"
-    }
-  }
+  "labels": {
+    "name": "web-service"
+  },
+  "createExternalLoadBalancer": true
 }

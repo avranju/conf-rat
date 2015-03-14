@@ -1,37 +1,29 @@
 {
-  "kind":"ReplicationController",
-  "apiVersion":"v1beta3",
-  "metadata":{
-    "name":"web-controller",
-    "labels":{
-      "name":"web-controller"
-    }
-  },
-  "spec":{
-    "replicas":2,
-    "selector":{
-      "name":"web"
-    },
-    "template":{
-      "metadata":{
-        "labels":{
-          "name":"web"
+  "id": "web-controller",
+  "kind": "ReplicationController",
+  "apiVersion": "v1beta1",
+  "desiredState": {
+    "replicas": 2,
+    "replicaSelector": {"name": "web"},
+    "podTemplate": {
+      "desiredState": {
+        "manifest": {
+          "version": "v1beta1",
+          "id": "web",
+          "containers": [{
+            "name": "cr-web",
+            "image": "avranju/cr-web",
+            "cpu": 100,
+            "memory": 50000000,
+            "ports": [{"name": "http-server", "containerPort": 3000}]
+          }]
         }
       },
-      "spec":{
-        "containers":[
-          {
-            "name":"cr-web",
-            "image":"avranju/cr-web",
-            "ports":[
-              {
-                "containerPort":3000,
-                "protocol":"TCP"
-              }
-            ]
-          }
-        ]
+      "labels": {
+        "name": "web",
+        "uses": "data-service",
+        "app": "web"
       }
-    }
-  }
+    }},
+  "labels": {"name": "web"}
 }
