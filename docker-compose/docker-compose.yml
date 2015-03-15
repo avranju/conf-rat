@@ -1,0 +1,19 @@
+crds:
+  image: avranju/cr-data-service
+  ports:
+    - "3001:3001"
+  # uncomment the following lines if you'd like the data service
+  # to run from an Azure DocumentDB store; assign valid values for
+  # the host and auth key variables
+  #environment:
+  #  CONF_RAT_DATA_DRIVER: ./drivers/documentdb
+  #  DOCUMENTDB_HOST: HOST URL
+  #  DOCUMENTDB_AUTH_KEY: AUTH KEY
+web:
+  image: avranju/cr-web
+  ports:
+    - "3000:3000"
+  links:
+    - crds:crds
+  environment:
+    CONF_RAT_DATA_SERVICE_URL: http://crds:3001/
