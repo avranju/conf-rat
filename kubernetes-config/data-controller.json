@@ -1,6 +1,6 @@
 {
   "kind": "ReplicationController",
-  "apiVersion": "v1",
+  "apiVersion": "v1beta3",
   "metadata": {
     "name": "cr-data-controller",
     "labels": {
