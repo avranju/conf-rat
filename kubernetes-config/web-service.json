@@ -1,13 +1,22 @@
 {
-  "id": "web",
   "kind": "Service",
-  "apiVersion": "v1beta1",
-  "port": 3000,
-  "containerPort": "3000",
-  "selector": {
-    "name": "web"
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "cr-web-service",
+    "labels": {
+      "name": "cr-web-service"
+    }
   },
-  "labels": {
-    "name": "web"
+  "spec": {
+    "ports": [
+      {
+        "port": 3000,
+        "targetPort": 3000,
+        "protocol": "TCP" 
+      }
+    ],
+    "selector": {
+      "name": "cr-web"
+    }
   }
 }

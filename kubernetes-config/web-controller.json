@@ -1,28 +1,38 @@
 {
-  "id": "web-controller",
   "kind": "ReplicationController",
-  "apiVersion": "v1beta1",
-  "desiredState": {
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "web-controller",
+    "labels": {
+      "name": "web-controller"
+    }
+  },
+  "spec": {
     "replicas": 2,
-    "replicaSelector": {"name": "web"},
-    "podTemplate": {
-      "desiredState": {
-        "manifest": {
-          "version": "v1beta1",
-          "id": "web-controller",
-          "containers": [{
-            "name": "cr-web",
-            "image": "avranju/cr-web",
-            "cpu": 100,
-            "ports": [{"containerPort": 3000, "hostPort": 3000}]
-          }]
+    "selector": {
+      "name": "cr-web"
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "name": "cr-web"
         }
       },
-      "labels": {
-        "name": "web"
+      "spec": {
+        "containers": [
+          {
+            "name": "cr-web",
+            "image": "avranju/cr-web",
+            "ports": [
+              {
+                "containerPort": 3000,
+                "hostPort": 3000,
+                "protocol": "TCP"
+              }
+            ]
+          }
+        ]
       }
-    }},
-  "labels": {
-    "name": "web"
+    }
   }
 }

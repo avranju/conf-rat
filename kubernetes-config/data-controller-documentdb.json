@@ -1,40 +1,52 @@
 {
-  "id": "cr-data-controller",
   "kind": "ReplicationController",
-  "apiVersion": "v1beta1",
-  "desiredState": {
-    "replicas": 3,
-    "replicaSelector": {"name": "cr-data"},
-    "podTemplate": {
-      "desiredState": {
-        "manifest": {
-          "version": "v1beta1",
-          "id": "cr-data-controller",
-          "containers": [{
-            "name": "cr-data",
-            "image": "avranju/cr-data-service",
-            "cpu": 100,
-            "ports": [{"containerPort": 3001, "hostPort": 3001}],
-            "env": [{
-              "name": "CONF_RAT_DATA_DRIVER",
-              "value": "./drivers/documentdb"
-            }, {
-              "name": "DOCUMENTDB_HOST",
-              "value": "DocumentDB host URL here"
-            }, {
-              "name": "DOCUMENTDB_AUTH_KEY",
-              "value": "DocumentDB auth key here"
-            }]
-          }],
-        }
-      },
-      "labels": {
-        "name": "cr-data"
-      }
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "cr-data-controller",
+    "labels": {
+      "name": "cr-data-controller"
     }
   },
-  "labels": {
-    "name": "cr-data"
+  "spec": {
+    "replicas": 3,
+    "selector": {
+      "name": "cr-data"
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "name": "cr-data"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "cr-data",
+            "image": "avranju/cr-data-service",
+            "ports": [
+              {
+                "containerPort": 3001,
+                "hostPort": 3001,
+                "protocol": "TCP"
+              }
+            ],
+            "env": [
+              {
+                "name": "CONF_RAT_DATA_DRIVER",
+                "value": "./drivers/documentdb"
+              },
+              {
+                "name": "DOCUMENTDB_HOST",
+                "value": "DocumentDB host URL here"
+              },
+              {
+                "name": "DOCUMENTDB_AUTH_KEY",
+                "value": "DocumentDB auth key here"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
-    
