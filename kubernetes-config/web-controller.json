@@ -22,7 +22,7 @@
         "containers": [
           {
             "name": "cr-web",
-            "image": "avranju/cr-web",
+            "image": "avranju/cr-web:latest",
             "ports": [
               {
                 "containerPort": 3000,

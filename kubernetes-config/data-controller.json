@@ -8,7 +8,7 @@
     }
   },
   "spec": {
-    "replicas": 3,
+    "replicas": 1,
     "selector": {
       "name": "cr-data"
     },
@@ -22,7 +22,7 @@
         "containers": [
           {
             "name": "cr-data",
-            "image": "avranju/cr-data-service",
+            "image": "avranju/cr-data-service:latest",
             "ports": [
               {
                 "containerPort": 3001,
