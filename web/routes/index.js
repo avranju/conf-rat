@@ -21,6 +21,13 @@ function findDataServiceURL() {
   if(process.env.CR_DATA_SERVICE_HOST && process.env.CR_DATA_SERVICE_PORT) {
     return "http://" + process.env.CR_DATA_SERVICE_HOST + ":" + process.env.CR_DATA_SERVICE_PORT;
   }
+  
+  // if environment variable called CR_DATA_SERVICE_SERVICE_HOST and
+  // CR_DATA_SERVICE_SERVICE_PORT exist then we use that to build the
+  // url; this happens when run in Kubernetes
+  if(process.env.CR_DATA_SERVICE_SERVICE_HOST && process.env.CR_DATA_SERVICE_SERVICE_PORT) {
+    return "http://" + process.env.CR_DATA_SERVICE_SERVICE_HOST + ":" + process.env.CR_DATA_SERVICE_SERVICE_PORT;
+  }
 
   // if nothing else is available fallback on the config file value;
   // this will only work during local dev
